@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml xmlns = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+  <net id = "n1"
+       type = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+    <name>
+      <text>uloha1</text>
+    </name>
+    <place id = "p1">
+      <graphics>
+        <position x = "80"
+                  y = "80"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>while ture do</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p2">
+      <graphics>
+        <position x = "260"
+                  y = "220"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>flag[0] = 1</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p3">
+      <graphics>
+        <position x = "260"
+                  y = "340"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>if p != 0</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p4">
+      <graphics>
+        <position x = "260"
+                  y = "460"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>wait until not flag[1]</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p5">
+      <graphics>
+        <position x = "260"
+                  y = "580"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>p = 0</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p6">
+      <graphics>
+        <position x = "260"
+                  y = "700"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>if flag[1]</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p7">
+      <graphics>
+        <position x = "260"
+                  y = "820"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>critical section</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p8">
+      <graphics>
+        <position x = "260"
+                  y = "940"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>flag[0] = 0</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p9">
+      <graphics>
+        <position x = "1080"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>while true do</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p10">
+      <graphics>
+        <position x = "920"
+                  y = "220"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>flag[1] = 1</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p11">
+      <graphics>
+        <position x = "920"
+                  y = "340"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>if p != 1</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p12">
+      <graphics>
+        <position x = "920"
+                  y = "460"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>wait until not flag[0]</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p13">
+      <graphics>
+        <position x = "920"
+                  y = "580"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>p = 1</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p14">
+      <graphics>
+        <position x = "920"
+                  y = "700"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>if flag[0]</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p15">
+      <graphics>
+        <position x = "920"
+                  y = "820"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>critical section</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p16">
+      <graphics>
+        <position x = "920"
+                  y = "940"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>flag[0] = 1</text>
+          </description>
+        </toolspecific>
+      </name>
+    </place>
+    <place id = "p17">
+      <graphics>
+        <position x = "580"
+                  y = "420"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p18">
+      <graphics>
+        <position x = "580"
+                  y = "500"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p19">
+      <graphics>
+        <position x = "420"
+                  y = "160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p20">
+      <graphics>
+        <position x = "420"
+                  y = "240"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p21">
+      <graphics>
+        <position x = "780"
+                  y = "160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p22">
+      <graphics>
+        <position x = "780"
+                  y = "240"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <transition id = "t1">
+      <graphics>
+        <position x = "260"
+                  y = "160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t2">
+      <graphics>
+        <position x = "260"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>flag0] = 1 (0 -&gt; 1)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <name hidden = "true"/>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t3">
+      <graphics>
+        <position x = "260"
+                  y = "400"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>true</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t4">
+      <graphics>
+        <position x = "180"
+                  y = "400"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>false</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t5">
+      <graphics>
+        <position x = "260"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t6">
+      <graphics>
+        <position x = "260"
+                  y = "640"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t7">
+      <graphics>
+        <position x = "160"
+                  y = "760"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>true</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t8">
+      <graphics>
+        <position x = "260"
+                  y = "760"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>false</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t9">
+      <graphics>
+        <position x = "260"
+                  y = "880"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t10">
+      <graphics>
+        <position x = "260"
+                  y = "1000"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t11">
+      <graphics>
+        <position x = "920"
+                  y = "160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t12">
+      <graphics>
+        <position x = "920"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>flag[1] = 0 (0 -&gt; 1)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <name hidden = "true"/>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t13">
+      <graphics>
+        <position x = "920"
+                  y = "400"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>true</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t14">
+      <graphics>
+        <position x = "1000"
+                  y = "400"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>false</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t15">
+      <graphics>
+        <position x = "920"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t16">
+      <graphics>
+        <position x = "920"
+                  y = "640"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t17">
+      <graphics>
+        <position x = "920"
+                  y = "760"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>false</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t18">
+      <graphics>
+        <position x = "1060"
+                  y = "760"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <toolspecific tool = "netlab"
+                      version = "1.8">
+          <developer_release version = "1,8,0,0"
+                             build = "3381"
+                             svn_revision = "419"
+                             year = "2007"
+                             month = "06"
+                             day = "22"/>
+          <description>
+            <text>true</text>
+          </description>
+        </toolspecific>
+      </name>
+    </transition>
+    <transition id = "t19">
+      <graphics>
+        <position x = "920"
+                  y = "880"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t20">
+      <graphics>
+        <position x = "920"
+                  y = "1000"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t21">
+      <graphics>
+        <position x = "160"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>flag[0] = 1 (1 -&gt; 1)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t22">
+      <graphics>
+        <position x = "1000"
+                  y = "280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>flag[1] = 1 (1 -&gt; 1)</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <arc id = "a1"
+         source = "p1"
+         target = "t1"/>
+    <arc id = "a2"
+         source = "p9"
+         target = "t11"/>
+    <arc id = "a3"
+         source = "t1"
+         target = "p2"/>
+    <arc id = "a4"
+         source = "t11"
+         target = "p10"/>
+    <arc id = "a5"
+         source = "p2"
+         target = "t2"/>
+    <arc id = "a6"
+         source = "p10"
+         target = "t12"/>
+    <arc id = "a7"
+         source = "p20"
+         target = "t2"/>
+    <arc id = "a8"
+         source = "p22"
+         target = "t12"/>
+    <arc id = "a9"
+         source = "t2"
+         target = "p19"/>
+    <arc id = "a10"
+         source = "t12"
+         target = "p21"/>
+    <arc id = "a11"
+         source = "t2"
+         target = "p3"/>
+    <arc id = "a12"
+         source = "t12"
+         target = "p11"/>
+    <arc id = "a13"
+         source = "p18"
+         target = "t4"/>
+    <arc id = "a14"
+         source = "p3"
+         target = "t4"/>
+    <arc id = "a15"
+         source = "t4"
+         target = "p6"/>
+    <arc id = "a16"
+         source = "p17"
+         target = "t14"/>
+    <arc id = "a17"
+         source = "p11"
+         target = "t14"/>
+    <arc id = "a18"
+         source = "t14"
+         target = "p14"/>
+    <arc id = "a19"
+         source = "p3"
+         target = "t3"/>
+    <arc id = "a20"
+         source = "p11"
+         target = "t13"/>
+    <arc id = "a21"
+         source = "p17"
+         target = "t3"/>
+    <arc id = "a22"
+         source = "p18"
+         target = "t13"/>
+    <arc id = "a23"
+         source = "t3"
+         target = "p4"/>
+    <arc id = "a24"
+         source = "t13"
+         target = "p12"/>
+    <arc id = "a25"
+         source = "p22"
+         target = "t5"/>
+    <arc id = "a26"
+         source = "p4"
+         target = "t5"/>
+    <arc id = "a27"
+         source = "p12"
+         target = "t15"/>
+    <arc id = "a28"
+         source = "p20"
+         target = "t15"/>
+    <arc id = "a29"
+         source = "t5"
+         target = "p5"/>
+    <arc id = "a30"
+         source = "t15"
+         target = "p13"/>
+    <arc id = "a31"
+         source = "p5"
+         target = "t6"/>
+    <arc id = "a32"
+         source = "p13"
+         target = "t16"/>
+    <arc id = "a33"
+         source = "p17"
+         target = "t6"/>
+    <arc id = "a34"
+         source = "p18"
+         target = "t16"/>
+    <arc id = "a35"
+         source = "t6"
+         target = "p6"/>
+    <arc id = "a36"
+         source = "t16"
+         target = "p14"/>
+    <arc id = "a37"
+         source = "t6"
+         target = "p18"/>
+    <arc id = "a38"
+         source = "t16"
+         target = "p17"/>
+    <arc id = "a39"
+         source = "p6"
+         target = "t8"/>
+    <arc id = "a40"
+         source = "p6"
+         target = "t7"/>
+    <arc id = "a41"
+         source = "p14"
+         target = "t17"/>
+    <arc id = "a42"
+         source = "p14"
+         target = "t18"/>
+    <arc id = "a43"
+         source = "p21"
+         target = "t7"/>
+    <arc id = "a44"
+         source = "p19"
+         target = "t18"/>
+    <arc id = "a45"
+         source = "t7"
+         target = "p1"/>
+    <arc id = "a46"
+         source = "t18"
+         target = "p9"/>
+    <arc id = "a47"
+         source = "p22"
+         target = "t8"/>
+    <arc id = "a48"
+         source = "p20"
+         target = "t17"/>
+    <arc id = "a49"
+         source = "t8"
+         target = "p7"/>
+    <arc id = "a50"
+         source = "t17"
+         target = "p15"/>
+    <arc id = "a51"
+         source = "p7"
+         target = "t9"/>
+    <arc id = "a52"
+         source = "t9"
+         target = "p8"/>
+    <arc id = "a53"
+         source = "p15"
+         target = "t19"/>
+    <arc id = "a54"
+         source = "t19"
+         target = "p16"/>
+    <arc id = "a55"
+         source = "p8"
+         target = "t10"/>
+    <arc id = "a56"
+         source = "p16"
+         target = "t20"/>
+    <arc id = "a57"
+         source = "p19"
+         target = "t10"/>
+    <arc id = "a58"
+         source = "p21"
+         target = "t20"/>
+    <arc id = "a59"
+         source = "t10"
+         target = "p20"/>
+    <arc id = "a60"
+         source = "t20"
+         target = "p22"/>
+    <arc id = "a61"
+         source = "t10"
+         target = "p1"/>
+    <arc id = "a62"
+         source = "t20"
+         target = "p9"/>
+    <arc id = "a63"
+         source = "t14"
+         target = "p17"/>
+    <arc id = "a64"
+         source = "t13"
+         target = "p18"/>
+    <arc id = "a65"
+         source = "t3"
+         target = "p17"/>
+    <arc id = "a66"
+         source = "t4"
+         target = "p18"/>
+    <arc id = "a67"
+         source = "t8"
+         target = "p22"/>
+    <arc id = "a68"
+         source = "t7"
+         target = "p21"/>
+    <arc id = "a69"
+         source = "t17"
+         target = "p20"/>
+    <arc id = "a70"
+         source = "t18"
+         target = "p19"/>
+    <arc id = "a71"
+         source = "p2"
+         target = "t21">
+      <graphics>
+        <position x = "160"
+                  y = "220"/>
+      </graphics>
+    </arc>
+    <arc id = "a72"
+         source = "p10"
+         target = "t22">
+      <graphics>
+        <position x = "1000"
+                  y = "220"/>
+      </graphics>
+    </arc>
+    <arc id = "a73"
+         source = "p21"
+         target = "t22">
+      <graphics>
+        <position x = "780"
+                  y = "100"/>
+        <position x = "1000"
+                  y = "100"/>
+      </graphics>
+    </arc>
+    <arc id = "a74"
+         source = "t22"
+         target = "p21">
+      <graphics>
+        <position x = "1000"
+                  y = "100"/>
+        <position x = "780"
+                  y = "100"/>
+      </graphics>
+    </arc>
+    <arc id = "a75"
+         source = "p19"
+         target = "t21">
+      <graphics>
+        <position x = "420"
+                  y = "80"/>
+        <position x = "160"
+                  y = "80"/>
+      </graphics>
+    </arc>
+    <arc id = "a76"
+         source = "t21"
+         target = "p19">
+      <graphics>
+        <position x = "160"
+                  y = "80"/>
+        <position x = "420"
+                  y = "80"/>
+      </graphics>
+    </arc>
+    <arc id = "a77"
+         source = "t15"
+         target = "p20"/>
+    <arc id = "a78"
+         source = "t5"
+         target = "p22"/>
+    <arc id = "a79"
+         source = "t21"
+         target = "p3">
+      <graphics>
+        <position x = "160"
+                  y = "340"/>
+      </graphics>
+    </arc>
+    <arc id = "a80"
+         source = "t22"
+         target = "p11">
+      <graphics>
+        <position x = "1000"
+                  y = "340"/>
+      </graphics>
+    </arc>
+    <toolspecific tool = "netlab"
+                  version = "1.8">
+      <developer_release version = "1,8,0,0"
+                         build = "3381"
+                         svn_revision = "419"
+                         year = "2007"
+                         month = "06"
+                         day = "22"/>
+      <comments>
+        <comment id = "c1">
+          <graphics>
+            <position x = "280"
+                      y = "40"/>
+          </graphics>
+          <text>Proces s indexem 0</text>
+        </comment>
+        <comment id = "c2">
+          <graphics>
+            <position x = "920"
+                      y = "40"/>
+          </graphics>
+          <text>Proces s indexem 1</text>
+        </comment>
+        <comment id = "c3">
+          <graphics>
+            <position x = "480"
+                      y = "160"/>
+          </graphics>
+          <text>flag[0] = 1</text>
+        </comment>
+        <comment id = "c4">
+          <graphics>
+            <position x = "480"
+                      y = "240"/>
+          </graphics>
+          <text>flag[0] = 0</text>
+        </comment>
+        <comment id = "c5">
+          <graphics>
+            <position x = "720"
+                      y = "160"/>
+          </graphics>
+          <text>flag[1] = 1</text>
+        </comment>
+        <comment id = "c6">
+          <graphics>
+            <position x = "720"
+                      y = "240"/>
+          </graphics>
+          <text>flag[1] = 0</text>
+        </comment>
+        <comment id = "c7">
+          <graphics>
+            <position x = "580"
+                      y = "380"/>
+          </graphics>
+          <text>p = 1</text>
+        </comment>
+        <comment id = "c8">
+          <graphics>
+            <position x = "580"
+                      y = "460"/>
+          </graphics>
+          <text>p = 0</text>
+        </comment>
+      </comments>
+      <view xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+            zoom = "75"
+            grid = "true"
+            numbering = "true"
+            names = "false"
+            description = "true"
+            colored_invariants = "true">
+        <scrollerposition x = "0"
+                          y = "0"/>
+      </view>
+      <calculation xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+                   autocalculate_invariants = "false"
+                   firing_rule = "strong"/>
+      <petrinetstatemodel self_loops = "true"
+                          io_extensions = "true"
+                          test_arcs = "allowed_at_all_nodes"
+                          inhibitor_arcs = "allowed_at_input_nodes"/>
+    </toolspecific>
+  </net>
+</pnml>
