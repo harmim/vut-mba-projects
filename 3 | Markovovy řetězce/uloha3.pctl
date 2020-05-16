@@ -1,0 +1,5 @@
+// Jaka je pravdepodobnost, ze infekce eventualne vymizi?
+P=? [ F n=0 ]
+
+// Jaka je pravdepodobnost, ze infekce trva aspon 100 casovych jednotek a vymizi behem 120 casovych jednotek?
+P=? [ n>0 U[100,120] n=0 ]

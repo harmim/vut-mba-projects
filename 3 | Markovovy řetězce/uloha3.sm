@@ -1,0 +1,20 @@
+// Author: Dominik Harmim <harmim6@gmail.com>
+
+ctmc
+
+const int z_init = 95;
+const int n_init = 5;
+const int u_init = 0;
+const int total = z_init + n_init + u_init;
+
+const double ki;
+const double kr;
+
+module cov20
+  z: [0..total] init z_init;
+  n: [0..total] init n_init;
+  u: [0..total] init u_init;
+
+  [] z > 0 & n > 0 & n < total -> z * n * ki : (z' = z - 1) & (n' = n + 1);
+  [] n > 0 & u < total -> n * kr : (n' = n - 1) & (u' = u + 1);
+endmodule
